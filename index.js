@@ -37,3 +37,7 @@ function flattenArray(arr) {
   return arr.flat(1);
 }
 
+function uniqueValues(arr) {
+  return [...new Set(arr)];
+}
+
