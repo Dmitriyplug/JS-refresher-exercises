@@ -41,3 +41,9 @@ function uniqueValues(arr) {
   return [...new Set(arr)];
 }
 
+function printNumbers(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+
