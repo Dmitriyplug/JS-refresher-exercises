@@ -63,3 +63,13 @@ function generateMultiplicationTable(n) {
   }
 }
 
+function sumOfDigits(num) {
+  let sum = 0;
+  let current = Math.abs(num);
+  while (current > 0) {
+    sum += current % 10;
+    current = Math.floor(current / 10);
+  }
+  return sum;
+}
+
