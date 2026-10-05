@@ -12,3 +12,8 @@ function countVowels(str) {
   return matches ? matches.length : 0;
 }
 
+function truncateText(str, maxLength) {
+  if (str.length <= maxLength) return str;
+  return str.slice(0, maxLength) + '...';
+}
+
