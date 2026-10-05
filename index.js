@@ -55,3 +55,11 @@ function calculateFactorial(n) {
   return result;
 }
 
+function generateMultiplicationTable(n) {
+  for (let num = n; num <= n; num++) {
+    for (let i = 1; i <= 10; i++) {
+      console.log(`${num} * ${i} = ${num * i}`);
+    }
+  }
+}
+
