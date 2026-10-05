@@ -17,3 +17,7 @@ function truncateText(str, maxLength) {
   return str.slice(0, maxLength) + '...';
 }
 
+function removeSpaces(str) {
+  return str.replaceAll(' ', '');
+}
+
