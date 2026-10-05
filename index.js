@@ -33,3 +33,7 @@ function findMax(arr) {
   return Math.max(...arr);
 }
 
+function flattenArray(arr) {
+  return arr.flat(1);
+}
+
