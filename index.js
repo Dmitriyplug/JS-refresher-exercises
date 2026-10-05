@@ -25,3 +25,7 @@ function sumArray(arr) {
   return arr.reduce((sum, current) => sum + current, 0);
 }
 
+function filterEvenNumbers(arr) {
+  return arr.filter((num) => num % 2 === 0);
+}
+
